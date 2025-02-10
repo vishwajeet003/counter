@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto-sans", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2022/06/30/02/00/mountains-7292778_1280.jpg);
+  background-size: cover;
+}
+.container {
+  width: 50%;
+  height: auto;
+  background-color: #fef9e1;
+  margin: auto;
+  padding: 1px 0 20px 0;
+  margin-top: 50px;
+  border-radius: 20px 45px;
+  box-shadow: 20px 20px 10px #e5d0ac;
+}
+
+.container:hover {
+  box-shadow: none;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.count {
+  font-size: 3rem;
+}
+.group {
+  background-color: #ff9d23;
+  font-size: 1.5rem;
+}
+.group:hover {
+  background-color: #fd9311;
+}
+.btn-2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+button {
+  padding: 10px 16px;
+  color: #000000a3;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 768px) {
+  button {
+    cursor: default;
+  }
+}
+button:focus {
+  outline: none !important;
+}
+.reset-btn {
+  background-color: #c14600;
+  color: white;
+}
+@media (width < 500) {
+  .reset-btn {
+    width: 3rem;
+  }
+}
+.reset-btn:hover {
+  background-color: #d95508;
+}
+.changeBy {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin: 16px 8px;
+  border-radius: 50px;
+}
