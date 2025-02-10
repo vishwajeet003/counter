@@ -70,6 +70,9 @@ button:focus {
   .reset-btn {
     width: 3rem;
   }
+button {
+  width: 90%;
+}
 }
 .reset-btn:hover {
   background-color: #d95508;
