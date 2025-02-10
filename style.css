@@ -66,7 +66,7 @@ button:focus {
   background-color: #c14600;
   color: white;
 }
-@media (width < 500) {
+@media (max-width : 500) {
   .reset-btn {
     width: 3rem;
   }
